@@ -1,0 +1,14 @@
+﻿@model Dictionary<string, double>
+
+<h1>Cocktail Menu</h1>
+
+@foreach (var item in Model)
+{
+    <div>
+        <span>@item.Key : @item.Value USD</span>
+        <form method="post" action="/Home/PlaceOrder">
+            <input type="hidden" name="cocktailName" value="@item.Key" />
+            <input type="submit" value="Order" />
+        </form>
+    </div>
+}

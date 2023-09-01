@@ -1,0 +1,17 @@
+﻿@model List<BartenderApp.Models.Order>
+
+<h1>Order Queue</h1>
+
+@foreach (var order in Model)
+{
+    <div>
+        <span>@order.CocktailName</span>
+
+        <!-- Completed button -->
+        <form method="post" asp-action="CompleteOrder">
+            <input type="hidden" name="OrderID" value="@order.OrderId" />
+            <input type="submit" value="Completed" />
+        </form>
+    </div>
+}
+}

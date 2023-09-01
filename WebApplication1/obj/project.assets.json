@@ -3228,11 +3228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IDEs\\Visual Studio 2022\\Repos\\Bartender App\\BartenderApp\\WebApplication1\\BartenderApp.csproj",
+      "projectUniqueName": "E:\\IDEs\\Visual Studio 2022\\Repos(2)\\Bartender App\\BartenderApp\\WebApplication1\\BartenderApp.csproj",
       "projectName": "BartenderApp",
-      "projectPath": "E:\\IDEs\\Visual Studio 2022\\Repos\\Bartender App\\BartenderApp\\WebApplication1\\BartenderApp.csproj",
+      "projectPath": "E:\\IDEs\\Visual Studio 2022\\Repos(2)\\Bartender App\\BartenderApp\\WebApplication1\\BartenderApp.csproj",
       "packagesPath": "C:\\Users\\Ben Pie\\.nuget\\packages\\",
-      "outputPath": "E:\\IDEs\\Visual Studio 2022\\Repos\\Bartender App\\BartenderApp\\WebApplication1\\obj\\",
+      "outputPath": "E:\\IDEs\\Visual Studio 2022\\Repos(2)\\Bartender App\\BartenderApp\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ben Pie\\AppData\\Roaming\\NuGet\\NuGet.Config",
